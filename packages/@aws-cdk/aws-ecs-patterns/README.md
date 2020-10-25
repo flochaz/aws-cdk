@@ -35,6 +35,7 @@ const loadBalancedEcsService = new ecsPatterns.ApplicationLoadBalancedEc2Service
     },
   },
   desiredCount: 2,
+  containerName: 'test',
 });
 ```
 
